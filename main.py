@@ -29,5 +29,5 @@ while pygame.event.wait().type != pygame.QUIT:
     pass
 pygame.quit()
 
-# Удаляем за собой файл с изображени
+# Удаляем за собой файл с изображе
 os.remove(map_file)
