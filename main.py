@@ -21,7 +21,7 @@ with open(map_file, "wb") as file:
 # Инициализируем pygame
 pygame.init()
 screen = pygame.display.set_mode((600, 450))
-# Рисуем картинку, загружаемую из только что созданного файл
+# Рисуем картинку, загружаемую из только что созданного фа
 screen.blit(pygame.image.load(map_file), (0, 0))
 # Переключаем экран и ждем закрытия окна.
 pygame.display.flip()
